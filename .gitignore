@@ -1,0 +1,73 @@
+# --- Node.js / General ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Environment Variables ---
+.env
+.env.*.local
+.env.local
+
+# --- Logs ---
+*.log
+logs/
+*.log.*
+log/
+debug.log
+
+# --- macOS ---
+.DS_Store
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Linux ---
+*~
+
+# --- VSCode ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# --- Prettier / ESLint ---
+.prettiercache
+.eslintcache
+
+# --- Expo / React Native ---
+.expo/
+.expo-shared/
+dist/
+build/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Metro cache
+.metro-cache/
+.metro-health-check/
+
+# Android / iOS (por si usás EAS Build o nativizás el proyecto)
+android/
+ios/
+
+# --- Optional: coverage from tests ---
+coverage/
+
+# --- Optional: IDEs ---
+.idea/
+*.iml
+
+# --- Git merge files ---
+*.orig
