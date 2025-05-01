@@ -5,6 +5,7 @@ import { User } from "../types/User";
 type AuthContextType = {
   user: User | null;
   token: string | null;
+  // eslint-disable-next-line no-unused-vars
   login: (token: string, user: User) => void;
   logout: () => void;
 };
